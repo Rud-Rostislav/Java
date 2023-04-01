@@ -4,6 +4,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+        // Колекції. Частина 2
         Set<Integer> hashSet = new HashSet<>();
         Set<Integer> linkedHashSet = new LinkedHashSet<>();
         Set<Integer> treeSet = new TreeSet<>();

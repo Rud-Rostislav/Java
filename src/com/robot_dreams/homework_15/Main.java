@@ -2,6 +2,7 @@ package com.robot_dreams.homework_15;
 
 public class Main {
     public static void main(String[] args) {
+        // Інтерфейси. Поліморфізм
         Driving driver = new Driver();
         driver.drive();
 

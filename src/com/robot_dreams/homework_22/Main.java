@@ -6,6 +6,7 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
+        // Stream Api. Лямбда. Частина 1
         List<Student> students = new ArrayList<>();
         students.add(new Student("Ivanov", 4.5));
         students.add(new Student("Petrov", 3.2));

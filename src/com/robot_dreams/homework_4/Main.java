@@ -2,6 +2,7 @@ package com.robot_dreams.homework_4;
 
 public class Main {
     public static void main(String[] args) {
+        // Операцї над строками
         String str = "Robot Dreams";
         System.out.println("Оригінальний текст:\n" + str + "\n");
         System.out.println("Верхній регістр:\n" + str.toUpperCase() + "\n");

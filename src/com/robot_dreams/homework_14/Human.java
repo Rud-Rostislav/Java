@@ -1,13 +1,10 @@
 package com.robot_dreams.homework_14;
 
 public abstract class Human {
-    private String firstName;
-    private String lastName;
-    private int age;
-    private String gender;
-
-    public Human() {
-    }
+    private final String firstName;
+    private final String lastName;
+    private final int age;
+    private final String gender;
 
     public Human(String firstName, String lastName, int age, String gender) {
         this.firstName = firstName;
@@ -23,31 +20,15 @@ public abstract class Human {
         return firstName;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
     public String getLastName() {
         return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
     }
 
     public int getAge() {
         return age;
     }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
-
     public String getGender() {
         return gender;
-    }
-
-    public void setGender(String gender) {
-        this.gender = gender;
     }
 }

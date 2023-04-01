@@ -2,6 +2,7 @@ package com.robot_dreams.homework_5;
 
 public class Main {
     public static void main(String[] args) {
+        // Умовні оператори
         int a = 53;
         int b = 36;
         int c = 32;

@@ -4,6 +4,7 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
+        // Масиви
         int[] arr = new int[10];
         createArrayRandom(arr);
         printArray(arr);

@@ -4,6 +4,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+        // Колекції. Частина 3
         Map<String, List<String>> map = new HashMap<>();
         map.put("Привіт", Arrays.asList("Hello", "こんにちは", "Hallo"));
         map.put("Бувай", Arrays.asList("Bye", "さよなら", "Tschüss"));

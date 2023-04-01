@@ -2,13 +2,14 @@ package com.robot_dreams.homework_7;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(cube(3));
-        printStar(5);
+        // Методи. Перевантаження
+        System.out.println(cube());
+        printStar(10);
         printElement("&", 15);
     }
 
-    static int cube(int a) {
-        return a * a * a;
+    static int cube() {
+        return 3 * 3 * 3;
     }
 
     static void printStar(int n) {

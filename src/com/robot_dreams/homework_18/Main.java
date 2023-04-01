@@ -6,6 +6,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
+        // Колекції. Частина 1
         ArrayList<Integer> number1 = new ArrayList<>();
         LinkedList<Integer> number2 = new LinkedList<>();
         for (int i = 0; i < 10; i++) {

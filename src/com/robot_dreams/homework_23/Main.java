@@ -7,6 +7,7 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
+        // Stream Api. Частина 2
         List<String> surnames = Arrays.asList("Петренко", "Нечуй", "Антонов", "Іващенко", "Петренко",
                 "Кулишин", "Нечуй", "Геращенко", "Діброва", "Піддубний",
                 "Кличко", "Геращенко", "Діброва", "Мартиненко", "Нечуєв",

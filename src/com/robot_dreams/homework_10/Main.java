@@ -2,6 +2,7 @@ package com.robot_dreams.homework_10;
 
 public class Main {
     public static void main(String[] args) {
+        // ООП. Частина 1
         ArrayNumbers array = new ArrayNumbers(10, 1, 100);
         array.printArray();
         array.sortArray();
