@@ -22,7 +22,7 @@ public class Main {
         }
 
         if (e % 2 == 0) {
-            System.out.println("Число" + e + "парне");
+            System.out.println("Число " + e + " парне");
         } else {
             System.out.println("Число " + e + " не парне");
         }
