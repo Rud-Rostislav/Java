@@ -1,8 +1,6 @@
 package com.robot_dreams.homework_23;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class Main {
