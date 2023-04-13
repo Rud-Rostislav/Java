@@ -14,25 +14,24 @@ public class Main {
             BufferedWriter writer = new BufferedWriter(new FileWriter(file));
             writer.write(data);
             writer.close();
-            System.out.println("Запис до файлу успішно завершено.");
+            System.out.println("Запис файлу " + file + " успішно завершено.");
         } catch (IOException e) {
             System.out.println("Помилка запису у файл: " + e.getMessage());
         }
     }
 
     public static void readFromFile(String file) {
-        StringBuilder sb = new StringBuilder();
         try {
             BufferedReader reader = new BufferedReader(new FileReader(file));
-            String line;
-            while ((line = reader.readLine()) != null) {
-                sb.append(line);
+            String line = reader.readLine();
+            while (line != null) {
+                System.out.println("Читаємо файл " + file + ":");
+                System.out.println(line);
+                line = reader.readLine();
             }
             reader.close();
         } catch (IOException e) {
             System.out.println("Помилка читання файлу: " + e.getMessage());
         }
-        System.out.println("Текст із файлу:");
-        System.out.println(sb);
     }
 }
