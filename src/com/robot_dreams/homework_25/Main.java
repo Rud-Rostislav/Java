@@ -1,22 +1,25 @@
 package com.robot_dreams.homework_25;
 
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        calculateSquare(5);
-        calculateSquare(-5);
-        calculateSquare(3);
-        calculateSquare(-7);
-    }
+        // Винятки. Частина 1
+        Scanner scanner = new Scanner(System.in);
 
-    public static void calculateSquare(int num) {
-        try {
-            if (num < 0) {
-                throw new NegativeNumberException(num);
-            } else {
-                System.out.println("Квадрат числа " + num + " = " + num * num + ".");
+        while (true) {
+            try {
+                System.out.println("Введіть число:");
+                int number = scanner.nextInt();
+                System.out.println("Ви ввели число: " + number);
+                break;
+            } catch (InputMismatchException e) {
+                System.out.println("Введено не число. Спробуйте ще раз.");
+                scanner.nextLine();
             }
-        } catch (NegativeNumberException e) {
-            System.out.println(e.getMessage());
         }
+
+        scanner.close();
     }
 }

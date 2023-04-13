@@ -1,4 +1,4 @@
-package com.robot_dreams.homework_25;
+package com.robot_dreams.homework_26;
 
 public class NegativeNumberException extends Exception {
     public NegativeNumberException(int num) {
