@@ -6,15 +6,15 @@ import java.nio.file.Path;
 
 public class Main {
     public static void main(String[] args) {
-        // Робота з файлами. Частина 1
+        // Робота з файлами. Частина 2
         writeToFile("file.txt", "Hello worlds with NIO!");
         readFromFile("file.txt");
     }
 
     public static void writeToFile(String file, String data) {
         try {
-            System.out.println("Запис файлу " + file + " успішно завершено.");
             Files.write(Path.of(file), data.getBytes());
+            System.out.println("Запис файлу " + file + " успішно завершено.");
         } catch (IOException e) {
             System.out.println("Помилка запису у файл: " + e.getMessage());
         }
