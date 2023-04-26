@@ -1,4 +1,4 @@
-package com.ua.robot_dreams.homework_29;
+package com.ua.robot_dreams.homework_32;
 
 public class ThreadRunnable implements Runnable {
     @Override
