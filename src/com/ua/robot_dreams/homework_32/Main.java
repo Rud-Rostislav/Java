@@ -9,6 +9,9 @@ public class Main {
         ThreadRunnable threadRunnable2 = new ThreadRunnable();
         Thread thread1 = new Thread(threadRunnable2);
 
+        thread0.setName("Потік 0");
+        thread1.setName("Потік 1");
+
         thread0.start();
         thread1.start();
     }
