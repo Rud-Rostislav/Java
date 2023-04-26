@@ -4,15 +4,15 @@ public class Main {
     public static void main(String[] args) {
         // Багатопотоковість. Частина 1
         ThreadRunnable threadRunnable = new ThreadRunnable();
-        Thread thread0 = new Thread(threadRunnable);
+        Thread thread1 = new Thread(threadRunnable);
 
         ThreadRunnable threadRunnable2 = new ThreadRunnable();
-        Thread thread1 = new Thread(threadRunnable2);
+        Thread thread2 = new Thread(threadRunnable2);
 
-        thread0.setName("Потік 0");
         thread1.setName("Потік 1");
+        thread2.setName("Потік 2");
 
-        thread0.start();
         thread1.start();
+        thread2.start();
     }
 }
