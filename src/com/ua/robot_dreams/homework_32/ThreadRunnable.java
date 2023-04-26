@@ -5,7 +5,7 @@ public class ThreadRunnable implements Runnable {
     public void run() {
         System.out.println("| " + Thread.currentThread().getName() + " стартував. |");
         for (int i = 1; i <= 10; i++) {
-            System.out.println(Thread.currentThread().getName() + ". Значення: " + i + ".");
+            System.out.println(Thread.currentThread().getName() + " = " + i + ".");
         }
         System.out.println("| " + Thread.currentThread().getName() + " закінчився. |");
     }
