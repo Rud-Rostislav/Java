@@ -1,6 +1,5 @@
 # Java Developer Course Homework
-
-Welcome to the GitHub repository for my Java Developer course homework! In this repository, you'll find a collection of projects that showcase my skills and knowledge gained during the course. Below is a brief overview of each project:
+In this repository, you'll find a collection of projects that showcase my skills and knowledge gained during the course.
 
 ## Cryptographer
 The Cryptographer project is a Java application that specializes in encrypting and decrypting text. It employs robust cryptographic algorithms to ensure secure and reliable transformation of plain text into code and vice versa.
@@ -17,3 +16,4 @@ The Spring Boot Web Store is a robust web application developed using the Spring
 ## Android Game Crocodile/Alias
 
 ## Selenium
+Basic Selenium implementation
