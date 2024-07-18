@@ -1,6 +1,3 @@
-# Java Developer Course Homework
-In this repository, you'll find a collection of projects that showcase my skills and knowledge gained during the course.
-
 ## Cryptographer
 The Cryptographer project is a Java application that specializes in encrypting and decrypting text. It employs robust cryptographic algorithms to ensure secure and reliable transformation of plain text into code and vice versa.
 
