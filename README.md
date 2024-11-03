@@ -1,5 +1,2 @@
-# Android Game 
-Alias Game.
-
+# Android Game Alias 
 # SpringBoot WebStore
-Web application.
