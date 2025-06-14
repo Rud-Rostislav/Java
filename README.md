@@ -23,7 +23,7 @@
    ![Головна сторінка](SpringBoot_screenshots/1.png)
 
 2.  
-   ![Додати новий запис](SpringBoot_screenshots/3.png)
+   ![Додати новий запис](SpringBoot_screenshots/2.png)
 
 3.  
    ![Деталі запису](SpringBoot_screenshots/3.png)
