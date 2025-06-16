@@ -1,23 +1,3 @@
-# Java Android Studio Game Alias 
-
-## 📸 Скріншоти
-
-   ![Screenshot](Android_screenshots/1.png)
-   
-   ![Screenshot](Android_screenshots/2.png)
-   
-   ![Screenshot](Android_screenshots/3.png)
-   
-   ![Screenshot](Android_screenshots/4.png)
-   
-   ![Screenshot](Android_screenshots/5.png)
-   
-   ![Screenshot](Android_screenshots/6.png)
-   
-   ![Screenshot](Android_screenshots/7.png)
-   
-   ![Screenshot](Android_screenshots/8.png)
-
 # CRUD App на Spring Boot
 Цей проект реалізує простий CRUD-додаток на **Spring Boot** для керування даними. Додаток підтримує операції створення, читання, оновлення та видалення записів.
 
@@ -35,22 +15,28 @@
 
 ## 📸 Скріншоти для Spring Boot CRUD
 
-   ![Screenshot](SpringBoot_screenshots/1.png)
-   
-   ![Screenshot](SpringBoot_screenshots/2.png)
-   
-   ![Screenshot](SpringBoot_screenshots/3.png)
-   
-   ![Screenshot](SpringBoot_screenshots/4.png)
-   
-   ![Screenshot](SpringBoot_screenshots/5.png)
-   
-   ![Screenshot](SpringBoot_screenshots/6.png)
-   
-   ![Screenshot](SpringBoot_screenshots/7.png)
-   
-   ![Screenshot](SpringBoot_screenshots/8.png)
-   
-   ![Screenshot](SpringBoot_screenshots/9.png)
-   
-   ![Screenshot](SpringBoot_screenshots/10.png)
+![Screenshot](screenshots/1.png)  
+![Screenshot](screenshots/2.png)  
+![Screenshot](screenshots/3.png)  
+![Screenshot](screenshots/4.png)  
+![Screenshot](screenshots/5.png)  
+![Screenshot](screenshots/6.png)  
+![Screenshot](screenshots/7.png)  
+![Screenshot](screenshots/8.png)  
+![Screenshot](screenshots/9.png)  
+![Screenshot](screenshots/10.png)  
+
+---
+
+# Java Android Studio Game 
+
+## 📸 Скріншоти
+
+![Screenshot](screenshots/11.png)  
+![Screenshot](screenshots/12.png)  
+![Screenshot](screenshots/13.png)  
+![Screenshot](screenshots/14.png)  
+![Screenshot](screenshots/15.png)  
+![Screenshot](screenshots/16.png)  
+![Screenshot](screenshots/17.png)  
+![Screenshot](screenshots/18.png)  
