@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".rules">
+
+    <Button
+        android:id="@+id/to_main_nenu"
+        android:layout_width="0dp"
+        android:layout_height="110sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="@color/main"
+        android:onClick="to_main"
+        android:text="До головного меню"
+        android:textSize="30sp"
+        app:cornerRadius="100sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="5dp"
+        android:lineSpacingExtra="5sp"
+        android:text="Ціль гри - набрати першим задану кількість очків, пояснюючи і відгадуючи слова. Можна грати за себе, а ведучий буде пояснювати слова, або у парі по 2 людей."
+        android:textAlignment="center"
+        android:textColor="@color/switch_black_white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:lineSpacingExtra="5sp"
+        android:text="Намагайтесь якомога краще пояснювати слова, багато говоріть, спробуйте визвати асоціації або схожі слова. Головне  -  не казати слово або якусь його частину. Якщо ви вгадуєте, то намагайтесь більше розпитати про слово."
+        android:textAlignment="center"
+        android:textColor="@color/switch_black_white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/to_main_nenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

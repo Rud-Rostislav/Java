@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Standart_colors-->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray_almost_adrk">#171717</color>
+    <color name="gray_dark">#FF393838</color>
+    <color name="gray_medium">#FF656565</color>
+
+    <!--Day_Scheme-->
+    <color name="main">#2D2D2D</color>
+    <color name="main_only_black">#1B1B1B</color>
+    <color name="second_white">#FFFFFF</color>
+    <color name="switch_black_white">#282828</color>
+    <color name="switch_white_black">#FFFFFF</color>
+    <color name="background">#FFFFFF</color>
+</resources>

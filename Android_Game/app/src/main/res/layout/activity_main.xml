@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="325sp"
+        android:layout_height="100sp"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="132dp"
+        android:backgroundTint="@color/main"
+        android:fontFamily="@font/montserrat_bold"
+        android:onClick="to_command_set"
+        android:text="@string/play"
+        android:textSize="40sp"
+        app:cornerRadius="100sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <Button
+        android:id="@+id/rules"
+        android:layout_width="325sp"
+        android:layout_height="100sp"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="132dp"
+        android:backgroundTint="@color/main"
+        android:fontFamily="@font/montserrat_bold"
+        android:onClick="to_rules"
+        android:text="@string/rules"
+        android:textSize="40sp"
+        app:cornerRadius="100sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/play" />
+
+    <Button
+        android:id="@+id/support"
+        android:layout_width="325sp"
+        android:layout_height="100sp"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="132dp"
+        android:backgroundTint="@color/main"
+        android:fontFamily="@font/montserrat_bold"
+        android:onClick="to_support"
+        android:text="@string/support"
+        android:textSize="24sp"
+        app:cornerRadius="100sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rules"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="300sp"
+        android:layout_height="400sp"
+        android:layout_marginTop="50dp"
+        android:adjustViewBounds="false"
+        android:background="@android:color/transparent"
+        android:backgroundTint="@android:color/transparent"
+        android:contentDescription="@string/logo"
+        android:padding="-10sp"
+        android:paddingLeft="-5sp"
+        android:paddingRight="-5sp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo"
+        app:tint="@color/switch_black_white" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

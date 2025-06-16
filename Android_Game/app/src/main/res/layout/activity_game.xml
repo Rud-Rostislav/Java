@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".game">
+
+    <TextView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="160sp"
+        android:background="@color/main"
+        android:text="@string/Command"
+        android:textColor="#90A4AE"
+        android:textSize="0sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/score_text"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/Score_text"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="28dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/Score"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="@+id/score_text"
+        app:layout_constraintStart_toStartOf="@+id/score_text"
+        app:layout_constraintTop_toBottomOf="@+id/score_text" />
+
+    <TextView
+        android:id="@+id/command_text"
+        android:layout_width="130sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/Command_text"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/command"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/Command"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="@+id/command_text"
+        app:layout_constraintStart_toStartOf="@+id/command_text"
+        app:layout_constraintTop_toBottomOf="@+id/command_text" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-5dp"
+        android:fontFamily="@font/montserrat_thin"
+        android:text="@string/timer"
+        android:textColor="@color/switch_black_white"
+        android:textSize="60sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timer_text" />
+
+    <TextView
+        android:id="@+id/timer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/montserrat_thin"
+        android:text="@string/timer_text"
+        android:textAlignment="center"
+        android:textColor="@color/switch_black_white"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/background" />
+
+    <TextView
+        android:id="@+id/winner_is_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="@string/winner_is"
+        android:textAlignment="center"
+        android:textColor="@color/switch_black_white"
+        android:textSize="34sp"
+        android:translationZ="3dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/background" />
+
+    <TextView
+        android:id="@+id/winner_name"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:gravity="center"
+        android:text="@string/Command_1"
+        android:textAlignment="center"
+        android:textColor="@color/switch_black_white"
+        android:textSize="60sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.974"
+        app:layout_constraintStart_toEndOf="@+id/words"
+        app:layout_constraintTop_toBottomOf="@+id/winner_is_text"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/words"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="@font/montserrat_thin"
+        android:gravity="center"
+        android:text="@string/Word"
+        android:textAlignment="center"
+        android:textColor="@color/switch_black_white"
+        android:textSize="65sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/right"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/background" />
+
+    <Button
+        android:id="@+id/start_game"
+        android:layout_width="match_parent"
+        android:layout_height="130sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/main"
+        android:text="@string/start_game"
+        android:textSize="34sp"
+        android:visibility="visible"
+        app:cornerRadius="100sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/play_again"
+        android:layout_width="400sp"
+        android:layout_height="100sp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/main"
+        android:onClick="play_again"
+        android:text="@string/play_again"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:visibility="invisible"
+        app:cornerRadius="100sp"
+        app:layout_constraintEnd_toEndOf="@+id/winner_name"
+        app:layout_constraintStart_toStartOf="@+id/winner_name"
+        app:layout_constraintTop_toBottomOf="@+id/winner_name" />
+
+    <Button
+        android:id="@+id/right"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="200sp"
+        android:layout_marginBottom="-6dp"
+        android:layout_weight="0.5"
+        android:backgroundTint="#13420B"
+        android:gravity="center"
+        android:soundEffectsEnabled="false"
+        android:text="@string/right"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:visibility="invisible"
+        app:cornerRadius="-20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/wrong"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/wrong"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="200sp"
+        android:layout_marginBottom="-6dp"
+        android:layout_weight="0.5"
+        android:backgroundTint="#550E0E"
+        android:soundEffectsEnabled="false"
+        android:text="@string/wrong"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:visibility="invisible"
+        app:cornerRadius="-20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/right" />
+
+    <Button
+        android:id="@+id/back_main_menu"
+        android:layout_width="match_parent"
+        android:layout_height="130sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/main"
+        android:onClick="main_menu"
+        android:text="@string/go_main_menu"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        app:cornerRadius="100sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/winner_name"
+        app:layout_constraintStart_toStartOf="@+id/winner_name" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

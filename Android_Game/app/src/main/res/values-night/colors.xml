@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Night_Scheme-->
+    <color name="main">#2D2D2D</color>
+    <color name="second_white">#FFFFFF</color>
+    <color name="switch_black_white">#FFFFFF</color>
+    <color name="switch_white_black">#000000</color>
+    <color name="background">#141414</color>
+</resources>
