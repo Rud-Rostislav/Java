@@ -1,0 +1,17 @@
+<div th:fragment="header" xmlns:sec="http://www.w3.org/1999/xhtml">
+    <div class="header">
+        <button class="header_button"><a href="/">Головна</a></button>
+        <button class="header_button"><a href="/catalog">Каталог</a></button>
+        <button sec:authorize="isAuthenticated()" class="header_button"><a href="/catalog/add">Додати товар</a></button>
+
+        <form th:action="@{/logout}" method="post">
+            <button sec:authorize="isAuthenticated()" class="header_button"><a href="/logout">Вихід</a></button>
+        </form>
+        <form th:action="@{/login}" method="post">
+            <button sec:authorize="!isAuthenticated()" class="header_button"><a href="/login">Вхід</a></button>
+        </form>
+
+        <button class="mode header_button" onclick="toggleTheme()" style="color: white">☀️</button>
+        <script src="/js/main.js"></script>
+    </div>
+</div>

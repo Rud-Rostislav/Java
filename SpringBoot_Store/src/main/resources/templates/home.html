@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ua" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Головна</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}"/>
+</head>
+<body>
+<header th:insert="blocks/header :: header"></header>
+
+<main>
+    <div class="main-block main-block-first">
+        <img src="/img/background_3.png" alt="Apple Products" class="image_3">
+        <p>Buy your own iPhone</p>
+    </div>
+
+    <div class="main-block">
+        <img src="/img/background_4.png" alt="Apple Products" class="image_4">
+        <p>New iPhone 14 Pro Max</p>
+    </div>
+</main>
+
+<p class="p_text">Upgrade your phone to next level </p>
+<div class="div_image1"></div>
+<p class="p_text">It's new iPhone 14 Pro Max!</p>
+<div class="div_image2"></div>
+
+<header th:insert="blocks/footer :: footer"></header>
+</body>
+</html>
